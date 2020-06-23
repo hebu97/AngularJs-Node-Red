@@ -19,15 +19,7 @@
 		
 		<script>
 			
-			
-			/*
-			(function(scope){
-                scope.$watch('msg', function(msg) {
-                data = msg.payload;
-                });
- 
-            })(scope);
-			*/
+
 			
 			
             ;(function(scope) {
@@ -35,6 +27,8 @@
                 scope.$watch('msg.payload', function(newVal, oldVal) {
                     console.log('- Scope.msg -')
                     console.dir(scope.msg)
+		    
+		    data= msg.payload;
                     
                 })
             
