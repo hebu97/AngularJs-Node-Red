@@ -1,7 +1,4 @@
 # AngularJs-Node-Red
-Problem  with scope, scope is not defined. How i can solve this? This code is in a Template-Node in Node-Red. I want to implement the msg.payload in the script-tag.
-
-
 
 <!DOCTYPE html>
 <html>
